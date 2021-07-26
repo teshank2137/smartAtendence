@@ -7,7 +7,7 @@ from datetime import date
 
 class Organization(models.Model):
     title = models.CharField(max_length=200, null=False)
-    hod = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    hod = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     teachers = models.ManyToManyField(
         User, related_name='Teachers', blank=True)
     students = models.ManyToManyField(
@@ -32,3 +32,12 @@ class Classroom(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Verification(models.Model):
+    image = models.ImageField(upload_to='verify/faces')
+    orgcode = models.SlugField(max_length=10)
+    classcode = models.SlugField(max_length=10)
+
+    def __str__(self):
+        return self.classcode

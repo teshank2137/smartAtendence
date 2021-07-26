@@ -1,0 +1,31 @@
+Smart attendence app
+
+we have 3 users roles
+    hod
+        can create organization(classroom) assign teachers for its organization
+    teachers
+        work under organization can create a subject class 
+    students
+        can join the organization through student joining code have setup face recognition 
+
+HOD work Flow:
+    a hod have a permission to create a new organization(classroom)
+    after creation on organization he have two codes one for students and one for teachers
+    he have to share codes respectively
+    an hod is also a teacher in its own organization
+
+Teacher Work Flow:
+    a teacher have to join the organization using the teacher code provided by the hod
+    after joining the organization teacher can create an subject class 
+    after creating a subject class the teacher receive present code for that particular class
+    the teacher have to share the code with students
+    After some time teacher can close the attendance
+    and see the present students for that class
+
+Student workFlow:
+    A student have to do the face registration befor marking present on any class
+    student have to join organization from the code provided by the HOD
+    after joining the organization the whenever the teacher shares the code for attendence
+    student have to enter unique code and then verify its face to continue
+    after sucessfull verification from backend student will get the conformation for being present from the server
+    and he will be marked present for the class
