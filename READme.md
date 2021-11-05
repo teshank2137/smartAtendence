@@ -19,7 +19,6 @@ Built Restframework **API** to integrate easily with any other frontend Technolo
   
 `POST accounts/signup/`
 - Login and receive authorization Token
-
 `POST acconts/login/`
 - Logout
 
