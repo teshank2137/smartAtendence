@@ -60,27 +60,27 @@ App is built using Flutter to support Android and iOS devices
 <div style="display: flex; flex-wrap:wrap; justify-content: space-between">
 <div>
 <h5>Login</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/login.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/login.png?raw=true" alt="login" style="width:45%">
 </div>
 <div>
 <h5>Signup</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/signup.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/signup.png?raw=true" alt="login" style="width:45%">
 </div>
 <div>
 <h5>Face Registration</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/FaceRegister.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/FaceRegister.png?raw=true" alt="login" style="width:45%">
 </div>
 <div>
 <h5>Mark present</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/marking-present.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/marking-present.png?raw=true" alt="login" style="width:45%">
 </div>
 <div>
 <h5>Current Ongoing classes</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/Current-ongoing-classes.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/Current-ongoing-classes.png?raw=true" alt="login" style="width:45%">
 </div>
 <div>
 <h5>Present Students View</h5>
-<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/present-students-teacher-view.png?raw=true" alt="login" style="width:200px">
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/present-students-teacher-view.png?raw=true" alt="login" style="width:45%">
 </div>
 
 </div>
