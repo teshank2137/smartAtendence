@@ -16,12 +16,17 @@ Built Restframework **API** to integrate easily with any other frontend Technolo
 #### Accounts endpoint
 
 - Signup
+  
 `POST accounts/signup/`
 - Login and receive authorization Token
+
 `POST acconts/login/`
 - Logout
+
 `POST accounts/logout/`
 - User Details
+  
 `GET accounts/me/`
 - Face Registration for new user
+
 `POST accounts/facereg/`
