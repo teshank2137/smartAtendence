@@ -7,7 +7,7 @@
 ---
 
 ## Backend
-**Django, Django-Rest-Framework**
+**Django, Django-Rest-Framework, SQL**
 
 Built Restframework **API** to integrate easily with any other frontend Technologies
 
@@ -50,6 +50,8 @@ Admin Dashboard `/admin`
   `GET api/classdetail/`
 - Check if user has HOD permission
   `GET ishod/[org-code]`
+
+---
 
 ## FrontEnd
 **Flutter**
