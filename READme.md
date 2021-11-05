@@ -13,7 +13,7 @@ Built Restframework **API** to integrate easily with any other frontend Technolo
 
 ### Endpoints
 
-`/admin` Admin Dashboard
+Admin Dashboard `/admin` 
 
 #### Accounts endpoint
 
@@ -50,3 +50,16 @@ Built Restframework **API** to integrate easily with any other frontend Technolo
   `GET api/classdetail/`
 - Check if user has HOD permission
   `GET ishod/[org-code]`
+
+## FrontEnd
+**Flutter**
+
+App is built using Flutter to support Android and iOS devices
+
+### Screen Shots
+<div>
+<div>
+<h5>Login</h5>
+<img src="https://github.com/teshank2137/smartAtendence/blob/master/media/login.png?raw=true" alt="login" style="width:40%">
+</div>
+</div>
